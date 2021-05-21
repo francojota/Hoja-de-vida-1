@@ -1,0 +1,353 @@
+body{
+    /* background-color: #30475e; */
+    font-family: 'Source Sans Pro',sans-serif;
+    /* font-family:'Ubuntu', sans-serif;
+    font-family: 'Fjalla One', sans-serif; */
+    margin: 0em;
+    }
+ul li{
+    list-style: none;
+}
+.logofondo{
+    margin: 0em;
+}
+
+ .header{
+    background-color:black;
+     color: white;
+    margin-bottom: 0em; 
+    display: flex;
+    justify-content: space-between;
+    height: 60px;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.menu{
+    height: inherit;
+}
+.header ul {
+    display: flex;
+    justify-content: center;
+    height: inherit; 
+}
+.header ul li{
+    height: inherit;
+    
+}
+.header a{
+    color: #f0a500;;
+    text-decoration: none;  
+    height: inherit;
+    display: flex;
+    align-items: center;
+    padding: 0px 15px 0px 15px;
+}
+.header ul{
+        margin: 0em;
+}
+ 
+    
+
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Fjalla One',sans-serif;
+}
+.project-details{
+    width: 400px;
+   
+
+}
+.project-imageconteiner{
+    width: 400px;
+}
+h1{
+    font-size: 40px;
+    line-height: 1.5em;
+    font-weight: 400;
+    letter-spacing:1px;
+}
+.hero{
+    background-color: rgb(29, 27, 27);
+    height: 400px;
+   
+    
+    /* background-image: url('imagenes/fondohero.jpg') ; */
+   
+    background-position: 172.5px 2px;
+    
+     background-repeat: no-repeat;
+    /* background-position: 500px 10px  ; */
+    /* background-position-x: right; */
+   
+    align-items: center;
+    /* padding-left: 20px; */
+    /* margin: 0 0; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+   
+   
+}
+/* .hero-image{
+object-fit: cover;
+} */
+
+.hero h1{
+    color: white;
+    margin-top: 0em;
+    margin: 0px 10px 10px 10px;
+    text-shadow: 1px 1px black;
+    padding: 100px 10px 20px 10px;
+   
+}
+strong{
+    color: #f0a500;
+    
+}
+
+.logo1{
+    width: 80px; }
+.proyectos{
+ background-color: #f8f8f8;
+ padding: 10px 20px;
+
+ 
+ }
+ h2{
+    color:rgb(197, 140, 18)  ;
+    text-transform: uppercase;
+    /* font-family: 'Source Sans Pro',sans-serif; */
+    font-weight: bold;
+    font-size: 25px;
+    margin: 10px 10px 20px 0px;
+    letter-spacing:2px;
+ }
+ .project-title{
+     font-size: 30px;
+     margin: 0px 0px 10px 0px;
+ }
+ .project{
+/* border-top: 10px solid #005082; */
+/* border-top-color:#005082;
+border-top-width:15px;
+border-top-style:solid; */
+border: 1px solid #D9A83D ;
+ border-radius: 5px;
+padding: 20px;
+/* margin: 10px; */
+ margin-bottom: 15px;
+background-color: white;
+display: flex;
+align-items: center;
+justify-content: space-between;
+flex-wrap: wrap;
+
+}     
+.title-experiencia{
+    padding: 20px;
+}  
+.project-voluntariado,
+.project-date,
+.project-description,
+.project-urlcas{
+    margin: 10px 0px;
+}       
+.project-urlcas a{
+text-decoration: none;
+font-size: 12px;
+}  
+.project-description{
+    font-size: 20px;
+} 
+.project strong{
+    font-family:'Fjalla One',sans-serif ;
+}   
+.exper{
+    display: flex;
+    padding: 10px;
+    flex-wrap: wrap;
+}  
+.experiencia{
+    /* border: 1px solid red; */
+    margin: 10px;
+    width: 460px;
+    /* align-items: center;
+    align-content: space-between; */
+    border-radius: 10px;
+    overflow: hidden;
+    flex-shrink: 0;
+    background: #f4fbff;
+}   
+.experiencia-imageConteiner{
+    margin: 0px;
+}
+.experiencia img{
+    width: 500px;
+    height: 300px;
+    object-fit: cover;
+    margin: 0px;
+}
+
+.experiencia-detail{
+    width: 340px;
+    margin: 20px 40px;
+    margin-top: -40px;
+    background-color: white;
+    position: relative;
+    padding: 20px;
+    text-align: center;
+    border: 1px solid #f0a500;
+    
+}
+.experiencia-detail a{
+    text-decoration: none;
+}
+.experiencia-description{
+    text-align: left;
+
+}
+.experiencia-url{
+    border: 2px solid #035aa6;
+    border-radius: 5px ;
+    text-decoration: none;
+    padding: 5px 20px;
+    color:#035aa6;
+}
+.video1{
+    align-items: center;
+    justify-content: center;
+    width: 800px;
+    height: 500px;
+}
+.centrarvideo{
+   display: block;
+   margin-left: 500px;
+   border-radius: 10px;
+    
+}
+.footer{
+    background-color: black ;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.footer img{
+    vertical-align: middle;
+}
+.footer a{
+    color: white;
+    text-decoration: none;
+}
+.contacto{
+    background-color: #035aa6;
+    color: white;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.social-link{
+    width: 50px;
+    height: 50px;
+   margin: 0px 10px;
+    display: inline-block;
+    background-size: 50px 50px;
+}
+.form-email input{
+    border-color: lavenderblush;
+    padding: 5px 20px 5px 25px;
+    border-radius: 5px;
+    border-style:solid ;
+    background-image: url('imagenes/logo2.png');
+    background-size: 15px 15px;
+    background-repeat: no-repeat;
+    background-position-y: center;
+    background-position-x:5px ;
+
+}
+.form-email .enviar{
+    display: block;
+    margin-top: 10px;
+    background: transparent;
+    color: white;
+    padding: 10px 0px;
+    border-radius: 5px;
+    width: 100px;
+    margin-top: 10px;
+   
+}
+.perro{
+    font-weight: 5;
+    
+}
+.form-email h3{
+    font-family: 'Source Sans Pro',sans-serif;
+}
+
+
+}
+.social-link.twitter{
+    background-image: url('imagenes/twitter.png');
+    
+  
+}
+.social-link.facebook{
+    background-image: url('imagenes/facebook.png');
+   
+}
+.social-link.github{
+    background-image: url('imagenes/github.png');
+    
+}
+.social-link.instagram{
+    background-image: url('imagenes/instagram.png');
+    
+}
+.social-link.linkedin{
+    background-image: url('imagenes/linkedin.png');
+    
+}
+.container{
+    /* border: 2px solid red; */
+    width: 1000px;
+    margin: 0 auto;
+    display: inherit;
+    justify-content: inherit;
+    align-items: inherit;
+    height: inherit;
+    /* overflow: hidden; */
+    flex-wrap: inherit;
+    
+    
+}
+/* .flexbox{
+    display: flex;
+    border: 2px solid blue; */
+    /* flex-direction: column; */
+    /* flex-wrap: nowrap; // por defecto esta propiedad hace que ningun flex pase a la linea de abajo */
+    /* flex-wrap: wrap; */
+    /* justify-content: center; */
+    /* justify-content: space-evenly;
+    height: 500px; */
+    /* justify-content: center; */
+    /* align-items: flex-end; lleva el contenido a la parte inferior
+     */
+     /* align-items: center; */
+      /* flex-direction: column; Distribuye los elementos en forma vertical
+} */
+/* .box{
+border: 2px solid red ;
+width: 100px;
+height: 100px;
+flex-shrink: 0;
+margin: 10px;
+background-image: url('imagenes/econ2.jpg') ;
+background-size: 100px 100px; */
+/* align-self: ;usado para tomar a un solo elemnto y hacer que varie en posicion 
+
+} */
+/* @media screen and (max-width: 320px){
+    asi se crea una seccion para usar la medias cueri
+} */
